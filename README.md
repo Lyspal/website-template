@@ -9,11 +9,12 @@ A base template for website design and development.
 
 The following template uses a modified version of Meyer's CSS Resets. The original version is available at https://meyerweb.com/eric/tools/css/reset/.
 
+Changes:
+- 	box-sizing: border-box; for all elements
+
 ### Sass
 
-#### Watch .scss files and output to directories
-
-Use the following command:
+To watch .scss files and output to directories, use the following command:
 
 ```
 sass --watch styles/sass:styles
