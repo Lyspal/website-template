@@ -1,9 +1,127 @@
+// Object: main stylesheet for the website.
+
+/* ==============================================
+    TABLE OF CONTENT
+
+    1. Reset
+    2. Variables
+        2.1. Layout breaks
+        2.2. Color palette
+    3. Fonts
+    4. Commons
+    5. Navigation
+    6. Content
+        6.1. Header
+        6.2. Section 1
+        6.3. Footer
+    8. Animations
+
+============================================== */
+
+
 /* ==============================================
     Reset
 ============================================== */
 
 @import 'reset';
 
+
 /* ==============================================
-    General
+    Variables
 ============================================== */
+
+$layout-breaks: (
+
+);
+
+$colors: (
+  // Palette
+  dominant: #3f69ee,
+  accent1: #59a0e8,
+  accent2: #2d3553,
+  background: white,
+
+  // Misc colors
+  text-light: white,
+  text-dark: black,
+
+);
+
+
+/* ==============================================
+    Fonts
+============================================== */
+
+@font-face {
+  font-family: "";
+  src: url("") format(""),
+       url("") format("");
+}
+
+
+/* ==============================================
+    Commons
+============================================== */
+
+:root {
+  // font-size: 100%;       // Browser default = 16px.
+  line-height: 1.4;
+  background-color: map-get($colors, "background");
+}
+
+// body {
+//   width: 100%;
+// }
+
+// h1 {
+//   // Positioning
+//   // Box model
+//   // Typographic
+//   // Visual
+//   // Misc.
+// }
+
+a {
+  cursor: pointer;
+}
+
+
+/* ==============================================
+    Navigation
+============================================== */
+
+
+
+
+/* ==============================================
+    Content
+============================================== */
+
+/*  Header
+============================================== */
+
+// h1 {
+//   // Positioning
+//   // Box model
+//   // Typographic
+//   // Visual
+//   // Misc.
+// }
+
+
+/*  Section 1
+============================================== */
+
+
+
+
+/*  Footer
+============================================== */
+
+
+
+
+/* ==============================================
+    Animations
+============================================== */
+
